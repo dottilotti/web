@@ -1,5 +1,5 @@
 .bodydefinition {
-  background-color: #0094ff;
+  background-color: lightgrey;
   -ms-align-content: center;
   -webkit-align-content: center;
   align-content: center; }
@@ -17,12 +17,19 @@
 .bottomLayoutayout {
   height: 350px;
   top: 0;
-  background-color: #00ff90; }
+  background-color: #00ff90;
+  background-image: url("images/Stoff_gruen.jpg"); }
 
 .dottiNav {
   top: 80px;
   z-index: 20;
   background-color: #fff;
+  color: #000; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #000; }
+
+.navbar-inverse .navbar-nav > li > a:focus {
   color: #000; }
 
 /*# sourceMappingURL=default_theme.css.map */

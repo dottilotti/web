@@ -1,7 +1,7 @@
 ﻿@import "colors";
 
 .bodydefinition {
-    background-color: $background_color;
+    background-color: lightgrey;
     -ms-align-content: center; 
     -webkit-align-content: center; 
     align-content: center;
@@ -16,18 +16,27 @@
 .topmiddleLayoutayout {
      height:250px;
      top:0;
-     background-color:#fff;
+     background-color: $background_color;
 }
 
 .bottomLayoutayout {
      height:350px;
      top:0;
      background-color:#00ff90;
+     background-image: url("images/Stoff_gruen.jpg");
 }
 
 .dottiNav {
     top:80px;
     z-index:20;
-    background-color: #fff;
+    background-color: $background_color;
+    color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
     color: #000;
 }
