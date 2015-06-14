@@ -4,4 +4,23 @@
   -webkit-align-content: center;
   align-content: center; }
 
+.toplayout {
+  height: 300px;
+  top: 0;
+  background-color: yellow; }
+
+.topmiddleLayoutayout {
+  height: 250px;
+  top: 0;
+  background-color: #fff; }
+
+.bottomLayoutayout {
+  height: 350px;
+  top: 0;
+  background-color: #00ff90; }
+
+.dottiNav {
+  top: 80px;
+  z-index: 20; }
+
 /*# sourceMappingURL=default_theme.css.map */
