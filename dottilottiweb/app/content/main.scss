@@ -10,7 +10,7 @@
 .toplayout {
      height:300px;
      top:0;
-     background-color:yellow;
+     background-image: url("images/Punkte_Hintergrund_Rot_klein.jpg");
 }
 
 .topmiddleLayoutayout {
@@ -28,4 +28,6 @@
 .dottiNav {
     top:80px;
     z-index:20;
+    background-color: #fff;
+    color: #000;
 }
