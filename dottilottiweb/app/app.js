@@ -6,10 +6,11 @@
             	$urlRouterProvider.otherwise("/home");
 
             	$stateProvider
-                    .state("home", {  url: "/home", templateUrl: "/templates/home.html" })           
+                    .state("home", { url: "/home", templateUrl: "/templates/home.html" })
+                    .state("team", { url: "/team", templateUrl: "/templates/team.html" })
+                    .state("kontakt", { url: "/kontakt", templateUrl: "/templates/kontakt.html" })
+                    .state("karten", { url: "/karten", templateUrl: "/templates/karten.html" })
         }
 	]
     );
-
-
 })();
