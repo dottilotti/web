@@ -1,3 +1,6 @@
+body {
+  font-family: 'Lora', serif; }
+
 .bodydefinition {
   background-color: lightgrey;
   -ms-align-content: center;
@@ -17,8 +20,19 @@
 .bottomLayoutayout {
   height: 350px;
   top: 0;
-  background-color: #00ff90;
-  background-image: url("images/Stoff_gruen.jpg"); }
+  background-color: #00ff90; }
+
+.bottomLayoutayout_home {
+  background-image: url("images/Stoff_gruen_Rubrik_Home.jpg"); }
+
+.bottomLayoutayout_karten {
+  background-image: url("images/gelbe_Flaeche_Teil_unten_Rubrik_Karten.jpg"); }
+
+.bottomLayoutayout_kontakt {
+  background-image: url("images/India_2_Teil_unten_Rubrik_Kontakt.jpg"); }
+
+.bottomLayoutayout_team {
+  background-image: url("images/India_1_Teil_unten_Rubrik_Team.jpg"); }
 
 .dottiNav {
   top: 80px;
