@@ -7,6 +7,26 @@ body {
   -webkit-align-content: center;
   align-content: center; }
 
+.blackbox {
+  background-color: #000;
+  background-image: url("images/Rahmen_orange_dotti_lotti_120.png");
+  height: 120px;
+  width: 804px; }
+
+.blackboxspanrowone {
+  color: white;
+  top: 24px;
+  left: 39px;
+  position: relative;
+  font-size: 28px; }
+
+.blackboxspanrowtwo {
+  color: white;
+  top: 56px;
+  left: 54px;
+  position: absolute;
+  font-size: 28px; }
+
 .toplayouttophome {
   height: 70px;
   background-image: url("images/Punkte_Hintergrund_1_V3.jpg"); }
