@@ -24,6 +24,11 @@ body {
   height: 30px;
   background-color: #e8d64d; }
 
+.dotsimageblue {
+  background-image: url("images/Linie_blue_dotti_lotti.png");
+  height: 30px;
+  background-color: #e8d64d; }
+
 .blackboxspanrowone {
   color: white;
   top: 24px;
@@ -69,6 +74,10 @@ body {
   height: 250px;
   background-color: #fff; }
 
+.topmiddleLayoutBlue {
+  height: 220px;
+  background-color: #fff; }
+
 .bottomLayoutayout {
   height: 350px;
   background-color: #00ff90; }
@@ -76,6 +85,11 @@ body {
 .dotsimagebottom {
   background-image: url("images/Linie_orange_dotti_lotti.png");
   height: 30px; }
+
+.dotsimagebottomblue {
+  background-image: url("images/Linie_blue_dotti_lotti.png");
+  height: 30px;
+  background-color: white; }
 
 .bottomLayoutayout_home {
   background-image: url("images/Stoff_gruen_Rubrik_Home.jpg"); }

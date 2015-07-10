@@ -31,6 +31,12 @@ body {
     background-color:#e8d64d;
 }
 
+.dotsimageblue {
+    background-image: url("images/Linie_blue_dotti_lotti.png");
+    height:30px;
+    background-color:#e8d64d;
+}
+
 .blackboxspanrowone{
     color:white;
     top:24px;
@@ -84,6 +90,12 @@ body {
      background-color: $background_color;
 }
 
+.topmiddleLayoutBlue{
+     height:220px;
+     background-color: $background_color;
+}
+
+
 .bottomLayoutayout {
      height:350px;
      background-color:#00ff90;
@@ -92,6 +104,12 @@ body {
 .dotsimagebottom {
     background-image: url("images/Linie_orange_dotti_lotti.png");
     height:30px;
+}
+
+.dotsimagebottomblue {
+    background-image: url("images/Linie_blue_dotti_lotti.png");
+    height:30px;
+    background-color:white;
 }
 
 .bottomLayoutayout_home {
