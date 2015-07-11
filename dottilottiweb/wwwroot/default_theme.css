@@ -34,14 +34,14 @@ body {
   top: 24px;
   left: 39px;
   position: relative;
-  font-size: 28px; }
+  font-size: 26px; }
 
 .blackboxspanrowtwo {
   color: white;
   top: 56px;
   left: 54px;
   position: absolute;
-  font-size: 28px; }
+  font-size: 26px; }
 
 .toplayouttophome {
   height: 70px;
@@ -79,8 +79,7 @@ body {
   background-color: #fff; }
 
 .bottomLayoutayout {
-  height: 350px;
-  background-color: #00ff90; }
+  height: 350px; }
 
 .dotsimagebottom {
   background-image: url("images/Linie_orange_dotti_lotti.png");
