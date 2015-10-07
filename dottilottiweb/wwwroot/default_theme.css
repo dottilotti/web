@@ -117,11 +117,13 @@ body {
   color: #000; }
 
 .slick-prev::before, .slick-next::before {
-  color: white;
+  color: grey !important;
   font-family: "slick";
   font-size: 20px;
   line-height: 1;
   opacity: 0.75;
-  background: grey none repeat scroll 0 0 !important; }
+  border-radius: 15px;
+  padding: 3px;
+  padding-top: 5px; }
 
 /*# sourceMappingURL=default_theme.css.map */
