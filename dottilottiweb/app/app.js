@@ -1,5 +1,5 @@
 ﻿(function () {
-    var mainApp = angular.module("mainApp", ["ui.router"]);
+    var mainApp = angular.module("mainApp", ["ui.router", "slick"]);
 
 	mainApp.config(["$stateProvider", "$urlRouterProvider",
 		function ($stateProvider, $urlRouterProvider) {
