@@ -10,7 +10,7 @@
                     .state("team", { url: "/team", templateUrl: "templates/team.html" })
                     .state("kontakt", { url: "/kontakt", templateUrl: "templates/kontakt.html" })
                     .state("karten", { url: "/karten", templateUrl: "templates/karten.html" })
-                    .state("kartendetails", { url: "/kartendetails/:kartenstyle/:karte", templateUrl: "templates/kartendetails.html", controller: "KartenDetailsController", })
+                    .state("kartendetails", { url: "/kartendetails/:karte", templateUrl: "templates/kartendetails.html", controller: "KartenDetailsController", })
         }
 	]
     );

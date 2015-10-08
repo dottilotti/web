@@ -15,9 +15,24 @@
 
 	function KartenDetailsController($scope, $log, $stateParams) {
 
-	    $scope.karte = $stateParams.karte;
-	    $scope.kartenstyle = $stateParams.kartenstyle;
-
+	    getKartenDetails($scope, $stateParams.karte);
 	}
+
+	function getKartenDetails(scope, karte) {
+	    switch (karte) {
+	        case "Dotti_Style_2":
+	            setKartenDetails(scope, "Dotti_Style_2", "Dotti_Style", "CHF 5.00");
+	            break;
+
+	    }
+
+	};
+
+	function setKartenDetails(scope, karte, kartenstyle, price) {
+	    scope.karte = karte;
+	    scope.kartenstyle = kartenstyle;
+        scope.price = price
+	};
+	
 
 })();
