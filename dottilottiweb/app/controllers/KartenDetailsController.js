@@ -120,13 +120,13 @@
 	
 	function setKartenDetailsTitle(scope, karte, kartenstyle) {
 	    if (kartenstyle == "Mandala_Style") {
-	        scope.setprice = "Ab 10 Sets 2.80 Ab 100 Sets 1.80";
+	        scope.setprice = "Ab 10 Sets 2.80 | Ab 100 Sets 1.80";
 	    }
 	    else if (kartenstyle == "Dotti_Style") {
-	        scope.setprice = "Ab 10 Karten 3.50 Ab 100 Karten 2.50";
+	        scope.setprice = "Ab 10 Karten 3.50 | Ab 100 Karten 2.50";
 	    }
 	    else if (kartenstyle == "India_Style") {	       
-	        scope.setprice = "Ab 10 Karten 3.50 Ab 100 Karten 2.50";
+	        scope.setprice = "Ab 10 Karten 3.50 | Ab 100 Karten 2.50";
 	    }    
 	};
 
