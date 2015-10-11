@@ -37,28 +37,28 @@
 	            break;
 
 	        case "Mandala_Style_1":
-	            setKartenDetails(scope, "Mandala_Style_1", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_1", "Mandala_Style", "Set CHF 3.80");
 	            break;
 	        case "Mandala_Style_2":
-	            setKartenDetails(scope, "Mandala_Style_2", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_2", "Mandala_Style", "Set CHF 3.80");
 	            break;
 	        case "Mandala_Style_3":
-	            setKartenDetails(scope, "Mandala_Style_3", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_3", "Mandala_Style", "Set CHF 3.80");
 	            break;
 	        case "Mandala_Style_4":
-	            setKartenDetails(scope, "Mandala_Style_4", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_4", "Mandala_Style", "Set CHF 3.80");
 	            break;
 	        case "Mandala_Style_5":
-	            setKartenDetails(scope, "Mandala_Style_5", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_5", "Mandala_Style", "Set CHF 3.80");
 	            break;
 	        case "Mandala_Style_6":
-	            setKartenDetails(scope, "Mandala_Style_6", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_6", "Mandala_Style", "Set CHF 3.80");
 	            break;
 	        case "Mandala_Style_7":
-	            setKartenDetails(scope, "Mandala_Style_7", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_7", "Mandala_Style", "Set CHF 3.80");
 	            break;
 	        case "Mandala_Style_8":
-	            setKartenDetails(scope, "Mandala_Style_8", "Mandala_Style", "CHF 4.50");
+	            setKartenDetails(scope, "Mandala_Style_8", "Mandala_Style", "Set CHF 3.80");
 	            break;
 
 	        case "India_Style_1":
@@ -120,12 +120,15 @@
 	function setKartenDetailsTitle(scope, karte, kartenstyle) {
 	    if (kartenstyle == "Mandala_Style") {
 	        scope.title = "Mandalakarten";
+	        scope.setprice = "Ab 10 Sets 2.80 Ab 100 Sets 1.80";
 	    }
 	    else if (kartenstyle == "Dotti_Style") {
 	        scope.title = "Stoffkarte Dotti Style";
+	        scope.setprice = "Ab 10 Karten 3.50 Ab 100 Karten 2.50";
 	    }
 	    else if (kartenstyle == "India_Style") {
 	        scope.title = "Stoffkarte India Style";
+	        scope.setprice = "Ab 10 Karten 3.50 Ab 100 Karten 2.50";
 	    }    
 	};
 
