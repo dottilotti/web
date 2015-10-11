@@ -109,7 +109,6 @@
 
 	};
 
-
 	function setKartenDetails(scope, karte, kartenstyle, price) {
 	    scope.karte = karte;
 	    scope.kartenstyle = kartenstyle;
