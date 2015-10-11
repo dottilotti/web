@@ -120,7 +120,7 @@
 	
 	function setKartenDetailsTitle(scope, karte, kartenstyle) {
 	    if (kartenstyle == "Mandala_Style") {
-	        scope.title = "Mandala Style";
+	        scope.title = "Mandalakarten";
 	    }
 	    else if (kartenstyle == "Dotti_Style") {
 	        scope.title = "Stoffkarte Dotti Style";
