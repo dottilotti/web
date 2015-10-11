@@ -115,23 +115,23 @@
 	    scope.kartenstyle = kartenstyle;
 	    scope.price = price;
 	    setKartenDetailsTitle(scope, karte, kartenstyle);
-	    setArticleNumber(scope, karte, kartenstyle);
+	    setArticleNumber(scope, karte);
 	};
 	
 	function setKartenDetailsTitle(scope, karte, kartenstyle) {
-	    if (kartenstyle = "Mandala_Style") {
+	    if (kartenstyle == "Mandala_Style") {
 	        scope.title = "Mandala Style";
 	    }
-	    else if (kartenstyle = "Dotti_Style") {
+	    else if (kartenstyle == "Dotti_Style") {
 	        scope.title = "Stoffkarte Dotti Style";
 	    }
-	    else if (kartenstyle = "India_Style") {
+	    else if (kartenstyle == "India_Style") {
 	        scope.title = "Stoffkarte India Style";
 	    }    
 	};
 
-    function setArticleNumber(scope, karte, kartenstyle) {
-	    scope.kartenArticleDesplay = kartenstyle.replace(/ /g, "_");
+    function setArticleNumber(scope, karte) {
+        scope.kartenArticleDesplay = karte.replace(/ /g, "_");
 	}
 
 })();
