@@ -127,6 +127,7 @@
 	    }
 	    else if (kartenstyle == "India_Style") {	       
 	        scope.setprice = "Ab 10 Karten 3.50 | Ab 100 Karten 2.50";
+	        scope.detailsTwo = "(Verschiedene Karten-Sujets gemischt auch möglich)";
 	    }    
 	};
 
