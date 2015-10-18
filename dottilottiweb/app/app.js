@@ -11,7 +11,7 @@
                     .state("kontakt", { url: "/kontakt", templateUrl: "templates/kontakt.html" })
                     .state("karten", { url: "/karten", templateUrl: "templates/karten.html" })
                     .state("kartendetails", { url: "/kartendetails/:karte", templateUrl: "templates/kartendetails.html", controller: "KartenDetailsController" })
-                    .state("kartendetailsmandala", { url: "/kartendetails/:karte", templateUrl: "templates/kartendetailsmandala.html", controller: "KartenDetailsController" })
+                    .state("kartendetailsmandala", { url: "/kartendetailsmandala/:karte", templateUrl: "templates/kartendetailsmandala.html", controller: "KartenDetailsController" })
         }
 	]
     );
